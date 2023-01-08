@@ -1,3 +1,8 @@
+# what is linear regression
+# Linear regression analysis is used to predict the value of a variable based on the value of another variable.
+# You can use many libraries to perform linear regression in machine learning model but here I will be using SciKit Learn
+# For more information - https://www.linkedin.com/pulse/linear-regression-suhas-k
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
@@ -60,13 +65,4 @@ print(y_test) # the original values
 score=lr.score(X_test, y_test) # shows you the accuracy percentage of your model
 print(score*100)
  
-
-
-
-
-
-
-
-
-
-
+#  I would appreciate if could make it better 
